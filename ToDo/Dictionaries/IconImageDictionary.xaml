@@ -1,0 +1,361 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ToDo.Dictionaries">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="ColorBrushDictionary.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    <DrawingImage x:Key="Search">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V48 H48 V0 H0 Z">
+                <GeometryDrawing Brush="Transparent" Geometry="F1 M48,48z M0,0z M21,38C30.3888,38 38,30.3888 38,21 38,11.6112 30.3888,4 21,4 11.6112,4 4,11.6112 4,21 4,30.3888 11.6112,38 21,38z">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="#FF333333"
+                            EndLineCap="Flat"
+                            LineJoin="Miter"
+                            StartLineCap="Flat"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M26.6568,14.3431C25.2091,12.8954 23.2091,12 21,12 18.7909,12 16.7909,12.8954 15.3431,14.3431">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="#FF333333"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M33.2218,33.2218L41.7071,41.7071">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="#FF333333"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="Calendar">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V48 H48 V0 H0 Z">
+                <GeometryDrawing Brush="Transparent" Geometry="F1 M48,48z M0,0z M5,19L43,19 43,40C43,41.1046,42.1046,42,41,42L7,42C5.89543,42,5,41.1046,5,40L5,19z">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource TurquoiseBrush}"
+                            EndLineCap="Flat"
+                            LineJoin="Miter"
+                            StartLineCap="Flat"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M5,9C5,7.89543,5.89543,7,7,7L41,7C42.1046,7,43,7.89543,43,9L43,19 5,19 5,9z">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource TurquoiseBrush}"
+                            EndLineCap="Flat"
+                            LineJoin="Miter"
+                            StartLineCap="Flat"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M16,4L16,12">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource TurquoiseBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M32,4L32,12">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource TurquoiseBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M28,34L34,34">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource TurquoiseBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M14,34L20,34">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource TurquoiseBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M28,26L34,26">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource TurquoiseBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M14,26L20,26">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource TurquoiseBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="Home">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V48 H48 V0 H0 Z">
+                <GeometryDrawing Brush="Transparent" Geometry="F1 M48,48z M0,0z M9,18L9,42 39,42 39,18 24,6 9,18z" />
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M9,42L9,18 4,22 24,6 44,22 39,18 39,42 9,42z">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource BlueBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="Transparent" Geometry="F1 M48,48z M0,0z M19,29L19,42 29,42 29,29 19,29z">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource BlueBrush}"
+                            EndLineCap="Flat"
+                            LineJoin="Miter"
+                            StartLineCap="Flat"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M9,42L39,42">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource BlueBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="Mark">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V48 H48 V0 H0 Z">
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M11,6L11,42">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource RedBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="Transparent" Geometry="F1 M48,48z M0,0z M11,9L25,9 32,12 39,12C40.1046,12,41,12.8954,41,14L41,31C41,32.1046,40.1046,33,39,33L32,33 25,30 11,30 11,9z">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource RedBrush}"
+                            EndLineCap="Flat"
+                            LineJoin="Miter"
+                            StartLineCap="Flat"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M7,42L15,42">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource RedBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="Star">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V48 H48 V0 H0 Z">
+                <GeometryDrawing Brush="Transparent" Geometry="F1 M48,48z M0,0z M23.9986,5L17.8856,17.4776 4,19.4911 14.0589,29.3251 11.6544,43 23.9986,36.4192 36.3454,43 33.9586,29.3251 44,19.4911 30.1913,17.4776 23.9986,5z">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource PinkBrush}"
+                            EndLineCap="Flat"
+                            LineJoin="Miter"
+                            StartLineCap="Flat"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="Sun">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V48 H48 V0 H0 Z">
+                <GeometryDrawing Brush="#FF333333" Geometry="F0 M48,48z M0,0z M24,3L24,6.15 24,3z" />
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M24,3L24,6.15">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource BluePurpleBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="{StaticResource BluePurpleBrush}" Geometry="F0 M48,48z M0,0z M38.8492,9.15076L36.6219,11.3781 38.8492,9.15076z" />
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M38.8492,9.15076L36.6219,11.3781">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="#FF333333"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="{StaticResource BluePurpleBrush}" Geometry="F0 M48,48z M0,0z M45,24L41.85,24 45,24z" />
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M45,24L41.85,24">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource BluePurpleBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="{StaticResource BluePurpleBrush}" Geometry="F0 M48,48z M0,0z M38.8492,38.8492L36.6219,36.6219 38.8492,38.8492z" />
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M38.8492,38.8492L36.6219,36.6219">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource BluePurpleBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="{StaticResource BluePurpleBrush}" Geometry="F0 M48,48z M0,0z M24,45L24,41.85 24,45z" />
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M24,45L24,41.85">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource BluePurpleBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="{StaticResource BluePurpleBrush}" Geometry="F0 M48,48z M0,0z M9.15076,38.8492L11.3781,36.6219 9.15076,38.8492z" />
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M9.15076,38.8492L11.3781,36.6219">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource BluePurpleBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="{StaticResource BluePurpleBrush}" Geometry="F0 M48,48z M0,0z M3,24L6.15,24 3,24z" />
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M3,24L6.15,24">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource BluePurpleBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="{StaticResource BluePurpleBrush}" Geometry="F0 M48,48z M0,0z M9.15076,9.15076L11.3781,11.3781 9.15076,9.15076z" />
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M9.15076,9.15076L11.3781,11.3781">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource BluePurpleBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="Transparent" Geometry="F1 M48,48z M0,0z M24,36C30.6274,36 36,30.6274 36,24 36,17.3726 30.6274,12 24,12 17.3726,12 12,17.3726 12,24 12,30.6274 17.3726,36 24,36z">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource BluePurpleBrush}"
+                            EndLineCap="Flat"
+                            LineJoin="Miter"
+                            StartLineCap="Flat"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="User">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V48 H48 V0 H0 Z">
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource LightGreenBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry
+                            Center="24,12"
+                            RadiusX="8"
+                            RadiusY="8" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M48,48z M0,0z M42,44C42,34.0589 33.9411,26 24,26 14.0589,26 6,34.0589 6,44">
+                    <GeometryDrawing.Pen>
+                        <Pen
+                            Brush="{StaticResource LightGreenBrush}"
+                            EndLineCap="Square"
+                            LineJoin="Miter"
+                            StartLineCap="Square"
+                            Thickness="3" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+</ResourceDictionary>
